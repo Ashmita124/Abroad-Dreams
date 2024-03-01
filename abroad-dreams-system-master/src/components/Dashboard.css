@@ -1,0 +1,83 @@
+h3 {
+    font-weight: bold;
+}
+
+.outer {
+    margin: 20px auto;
+    width: 100%;
+    max-width: 1000px;
+}
+
+.item {
+    border: 1px solid black;
+    background-color: white;
+    padding: 20px;
+    margin-top: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+
+.item:hover {
+    border: 1px solid rgb(130, 176, 65);;
+}
+
+.inner {
+    border: 1px solid black;
+    background-color: white;
+    padding: 40px;
+    margin-top: 5px;
+}
+
+.p {
+    flex: 1;
+    padding: 10px 20px;
+}
+
+textarea {
+    width: 300px;
+    margin: 10px 0;
+    padding: 4px 8px;
+    height: 200px;
+}
+
+input {
+    padding: 4px 8px;
+}
+
+label {
+    margin: 10px;
+}
+
+.info-wrapper {
+    display: flex;
+    gap: 20px; /* Adjust the gap as needed */
+    background-color: #f2f2f2; /* Light background color */
+    padding: 10px;
+}
+
+.info-box {
+    flex: 1;
+    text-align: center;
+    padding: 15px;
+    border-radius: 10px;
+    background-color: #ffffff; /* White background color */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Box shadow for a subtle lift */
+}
+
+.info-box p {
+    margin: 0;
+    font-size: 14px;
+    color: #555555; /* Text color */
+}
+
+.info-box strong {
+    display: block;
+    margin-top: 5px;
+    font-size: 18px;
+    color: #333333; /* Strong text color */
+    font-weight: bold;
+}
+
